@@ -51,6 +51,7 @@ To create a new user and organisation for the site:
 
 ```
 docker-compose exec api node cli/dist/server createSiteAdmin [email] [organisation] [password]
+docker-compose exec api node cli/dist/server createSiteAdmin tkwu@im.ncue.edu.tw NCUE_IM tkwu1234password
 ```
 
 ## Production usage
